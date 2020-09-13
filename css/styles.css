@@ -1,0 +1,356 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Roboto:wght@500&display=swap');
+/* font-family: 'Oswald', sans-serif;
+font-family: 'Roboto', sans-serif; */
+*{
+    box-sizing: border-box;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    width: 100%;
+    margin: 0;
+    background-color: #eee;
+}
+.container{
+    width: 1100px;
+    min-height: 600px;
+    background-color: #fff;
+    margin: auto;
+}
+.container header{
+    width: 100%;
+    height: 70px;
+    background-color: #000;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.container header .logo{
+    flex-basis: 20%;
+    height: 45px;
+}
+.container header nav{
+    flex-basis: 60%;
+    height: 45px;
+}
+.container header .cta{
+    flex-basis: 10%;
+    height: 45px;
+}
+.container a{
+    text-decoration: none;
+    color: #eee;
+}
+.container header .logo a{
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.container header nav ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+.container header nav ul li a{
+    display: block;
+    padding: 10px 13px;
+    color: orange;
+    transition: all 0.3s ease-in 0s;
+}
+.container header nav ul li a:hover{
+    background-color: #eee;
+    border-radius: 6px;
+    color: #000;
+}
+.container header .cta a{
+    display: block;
+    width: 120px;
+    padding: 10px 13px;
+    background-color: rgb(36, 35, 35);
+    border-radius: 7px;
+    text-align: center;
+    transition: all 0.3s ease-in-out 0s;
+}
+.container header .cta a:hover{
+    background-color: rgb(59, 57, 57);
+}
+.container .slider{
+    width: 100%;
+    height: 550px;
+    background-image: url(../images/b3.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container .slider .content{
+    flex-basis: 60%;
+    text-align: center;
+    position: relative;
+    z-index: 9999;
+}
+.container .slider .overlay{
+    background-color: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    width: 1100px;
+    height: 550px;
+}
+.container .slider .content h1{
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    color: #fff;
+    text-transform: uppercase;
+}
+.container .slider .content p{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 300;
+}
+.container .slider .content .btn{
+    width: 130px;
+    height: 45px;
+    background: transparent;
+    border: 1px solid #fff;
+    display: inline-block;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+.container .display{
+    display: flex;
+}
+.container .display .right{
+    flex: 1;
+    height: 700px;
+    background-image: url(../images/ab1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.container .display .left{
+    flex: 1;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+}
+.container .display .left .left-a{
+    height: 350px;
+    padding: 20px 45px;
+}
+.container .display .left .left-a span{
+    display: inline-block;
+    width: 130px;
+    height: 50px;
+    background-color: #000;
+    cursor: pointer;
+    padding: 15px 10px;
+    text-align: center;
+}
+.container .display .left .left-a span a{
+    color: #fff;
+}
+.container .display .left .left-b{
+    background-image: url(../images/ab2.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+}
+
+h1{
+    text-align: center;
+}
+.container .services .services-flex .services-sub .any-class i{
+ color: white;
+ background-color: black;
+ width:15%;
+ text-align: center;
+ font-size: 10px;
+ padding:10px 0;
+}
+.container .services .services-flex .services-sub .any-class  h1{
+color: white;
+background-color: yellow;
+margin: 0;
+width:70%;
+font-size:14px;
+padding:7px 0;
+text-align: center;
+}
+
+.container .services{
+    width:100%;
+    height:auto;
+}
+
+.container .services .services-flex{
+    display:flex;
+    width:80%;
+    height:auto;
+    align-items:center;
+    justify-content:space-between;
+    margin:0 auto;
+}
+
+.container .services .services-flex .services-sub{
+   width:23%;
+   height:auto;
+}
+
+.container .services .services-flex .services-sub .images-box{
+    width:100%;
+    height:auto;
+    margin:0;
+}
+
+.container .services .services-flex .services-sub .images-box img{
+    width:100%;
+    height:auto;
+    margin:0;
+}
+.container .services .services-flex .services-sub .any-class{
+    display: flex;
+    margin:0 auto;
+    height:30px;
+}
+
+.container .team-member .Team-flex .Team-sub .any-class h1{
+    color: yellow;
+    font-size:15px;
+    text-align: center;
+}
+.container .team-member .Team-flex .Team-sub .any-class h2{
+    color: black;
+    font-size:10px ;
+    text-align: center;
+}
+.container .team-member{
+    width: 100%;
+    height: auto;
+
+}
+
+.container .team-member .Team-flex{
+    display:flex;
+    Align-items: center;
+    justify-content:space-between;
+    margin:0 auto;
+    width: 80%;
+}
+.container .team-member .Team-flex .Team-sub img{
+    display:block;
+    width: 100%;
+}
+.container .team-member .Team-flex .Team-sub{
+    width: 23%;
+    height: auto;
+}
+
+  h1{
+      color: white;
+  }
+.container .stats{
+    width:100%;
+    height: auto;
+    background:url(../images/stats.jpg) no-repeat;
+    padding-top:7%;
+    padding-bottom:9%;
+    margin-top: 4%;
+    margin-bottom:5%;
+}
+
+.container .stats .stats-flex .stats-sub h1{
+    color: yellow;
+    text-align: center;
+    text-transform: uppercase;
+}
+.container .stats .stats-flex .stats-sub p{
+   color: white;
+   text-align: center;
+}
+
+.container .stats .stats-flex{
+    display: flex;
+    width:80%;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.container .stats-flex .stats-sub{
+width: 120px;
+height: 120px;
+border-radius: 100%;
+border:1px solid white;
+}
+/* our projects work */
+
+.container .our-projects{
+    width:100%;
+    height: auto;
+    padding: 30px 80px;
+    text-align: center;
+}
+
+.container .our-projects h1{
+    text-transform: uppercase;
+    color:black;
+    margin-top:10px ;
+}
+
+.container .our-projects .box{
+     display: flex;
+     flex-wrap: wrap;
+     width:80%;
+     height:auto;
+     margin: 0 auto;
+     margin-top: 20px;
+     justify-content: space-around;
+     align-items: center;
+}
+
+.container .our-projects .box img{
+    width:31%;
+    margin-bottom: 15px;
+    height: auto;
+    display: block;
+    border: 3px solid rgb(205,213,219,0.406);
+}
+/* projects styling ends here */
+
+
+h1{
+    text-transform: uppercase;
+    padding-top: 50px;
+}
+.container .testimonial{
+   
+    width:80%;
+    margin: 0 auto;
+    background-color: yellow;
+   
+}
+.container .testimonial .icon {
+    
+    width:100%;
+    height:auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container .testimonial .icon .img{
+    width:30%;
+    height:auto;
+    margin-left: 50px;
+}
+.container .testimonial .icon .circle{
+    width:35%;
+}
+.container .testimonial .icon .test{
+    padding-left: 20px;
+}
+.container .testimonial .icon .test h2{
+    text-transform: uppercase;
+}
